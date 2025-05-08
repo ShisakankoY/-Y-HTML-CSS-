@@ -93,7 +93,7 @@ code {
 
 @media (max-width: 768px) {
   .rounded-image {
-    display: none;
+    display: none !important;
   }
 }
 
