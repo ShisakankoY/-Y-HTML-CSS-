@@ -1,0 +1,94 @@
+footer {
+    background-color: #c0c0c0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .my-navbar {
+    background-color: #2D2A29;
+  }
+
+.navbar-toggler {
+  border-color: white; /* 枠線を白に */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.top {
+    margin: 20px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 175px; /* お好みのサイズに変更 */
+    height: 175px; /* 幅と高さを同じにする */
+    object-fit: cover; /* 画像が収まるように調整 */
+}
+
+.heikou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.top-news {
+  height: 120px; /* 高さを設定 */
+  overflow-y: auto; 
+}
+
+.notice {
+  margin: 100px;
+}
+
+.image {
+  padding-left: 0%
+}
+
+.back {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none; /* 下線を消す */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-link:hover {
+  background-color: #45a049;
+}
+
+.custom-navbar {
+  background-color: #2D2A29; /* 水色 */
+}
+
+pre {
+  background-color: #f8f9fa;
+  padding: 1em;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+code {
+  font-family: monospace;
+  color: #333;
+}
+
+.code-large {
+  font-size: 1.5rem;
+}
+
+  
