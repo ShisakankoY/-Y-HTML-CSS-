@@ -11,7 +11,7 @@ function test() {
 
     //Q1
     let input = prompt("Q1.HTMLはWebサイトを構成するマークアップ言語である。YesかNoで答えて下さい。");
-    if (input == "Yes" || input == "yes") {
+    if (input == "Yes" || input == "yes"　|| input == "イエス" || input == "いえす") {
         alert("正解!");
     } else {
         alert("不正解...");
@@ -20,7 +20,7 @@ function test() {
     
     //Q2
     input = prompt("Q2.コードは全て半角で打つ。(文字列を除く)YesかNoで答えて下さい。");
-    if (input == "Yes" || input == "yes") {
+    if (input == "Yes" || input == "yes"　|| input == "イエス" || input == "いえす") {
         alert("正解!");
     } else {
         alert("不正解...");
