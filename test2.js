@@ -11,7 +11,7 @@ function test2() {
 
     //Q1
     let answer = prompt("Q1.CSSはWebサイトを装飾する言語である。YesかNoで答えて下さい。");
-    if (answer == "Yes" || answer == "yes") {
+    if (answer == "Yes" || answer == "yes" || input == "イエス" || input == "いえす") {
         alert("正解!");
     } else {
         alert("不正解...");
